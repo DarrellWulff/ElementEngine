@@ -13,6 +13,8 @@ public:
 	float y;
 	float z;
 
+public:
+
 	void set(float xVal, float yVal, float zVal);
 	void set(Vector3 vectorVal);
 

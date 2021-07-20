@@ -143,6 +143,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Application\Game.cpp" />
+    <ClCompile Include="src\TempTest\ProjectFolder\EEProject.cpp" />
+    <ClCompile Include="src\Application\Application.cpp" />
     <ClCompile Include="src\Entitiy\EntityManager.cpp" />
     <ClCompile Include="src\Component\Component.cpp" />
     <ClCompile Include="src\Entitiy\Entity.cpp" />
@@ -153,8 +156,12 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Math\Vector3.cpp" />
     <ClCompile Include="src\TempTest\TestClass.cpp" />
+    <ClCompile Include="src\Application\ApplicationWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Application\Game.h" />
+    <ClInclude Include="src\TempTest\ProjectFolder\EEProject.h" />
+    <ClInclude Include="src\Application\Application.h" />
     <ClInclude Include="src\Entitiy\EntityManager.h" />
     <ClInclude Include="src\Component\Component.h" />
     <ClInclude Include="src\Entitiy\Entity.h" />
@@ -164,6 +171,7 @@
     <ClInclude Include="src\Engine\Engine.h" />
     <ClInclude Include="src\Math\Vector3.h" />
     <ClInclude Include="src\TempTest\TestClass.h" />
+    <ClInclude Include="src\Application\ApplicationWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

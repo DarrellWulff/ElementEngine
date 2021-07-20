@@ -14,7 +14,7 @@ void TestClass::testProgram()
 	//testVector();
 	//fastMagTest();
 	//testMatrix();
-	testQuat();
+	//testQuat();
 }
 
 void TestClass::testVector()

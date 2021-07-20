@@ -7,14 +7,16 @@ class Matrix
 {
 public:
 
+	float matrix[16];
+
+public:
+
 	Matrix();
 	Matrix(float matrixArray[]);
 	Matrix(float m11, float m21, float m31, float m41, 
 		float m12, float m22, float m32, float m42, 
 		float m13, float m23, float m33, float m43,
 		float m14, float m24, float m34, float m44);
-
-	float matrix[16];
 
 	void set(Matrix setMatrix);
 	void set(float matrixArray[]);

@@ -13,6 +13,8 @@ public:
 	float y;
 	float z;
 
+public:
+
 	void set(float wVal, float xVal, float yVal, float zVal);
 	void set(Quaternion quatVal);
 
